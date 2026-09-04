@@ -1,8 +1,3 @@
-"""
-Juego: Adivina el Número Secreto
-Desarrollado para simular un mini-proyecto ágil con integración continua.
-"""
-
 import random
 
 
@@ -23,6 +18,7 @@ def evaluar_intento(secreto, intento):
 
 def jugar():
     print("=== ADIVINA EL NÚMERO SECRETO ===")
+    print("¡Bienvenido! Tienes que descubrir el número entre 1 y 100.")
     secreto = generar_numero_secreto()
     intentos = 0
 
